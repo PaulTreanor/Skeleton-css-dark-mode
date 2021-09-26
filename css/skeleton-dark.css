@@ -31,7 +31,8 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  background-color: grey;
+  color: #DDD; }
 
 
 
@@ -39,9 +40,9 @@ body {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #FFF; }
 a:hover {
-  color: #0FA0CE; }
+  color: #EEE; }
 
 
 /* Buttons
@@ -200,15 +201,13 @@ td:last-child {
 
 
 
-
-
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #E1E1E1; }
+  border-top: 1px solid #0f0f0f; }
 
 
 
