@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  
 
   // Variables
   var $codeSnippets = $('.code-example-body'),
@@ -91,4 +92,24 @@ $(document).ready(function() {
 
   init();
 
+
+  
+
 });
+
+function toggleTheme() { 
+  console.log('togglingTheme')
+  // if light mode 
+  //
+}
+
+function setDark() {
+  document.getElementById("pagestyle").setAttribute("href", "dist/css/skeleton-dark.css");  
+  document.getElementById("customstyle").setAttribute("href", "css/custom-dark.css"); 
+}
+
+function setLight() {
+  document.getElementById("pagestyle").setAttribute("href", "dist/css/skeleton-light.css");  
+  document.getElementById("customstyle").setAttribute("href", "css/custom-light.css"); 
+
+}
