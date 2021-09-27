@@ -45,24 +45,10 @@
     <section class="header">
       <h1>Skeleton Dark Mode</h1>
       <h5>Simple modern CSS boilerplate</h5>
-      <div class="row">
+      <div class="row button-row">
         <a class="button button-primary" href="https://github.com/dhg/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip" onClick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">Download</a>
         <a class="button" id="darkMode" onClick="setDark()">Dark Mode</a>
         <a class="button" id="lightMode" onClick="setLight()">Light Mode</a>
-      </div>
-      <div class="value-props row">
-        <div class="four columns value-prop">
-          <img class="value-img" src="images/feather.svg">
-          Light as a feather at ~400 lines &amp; built with mobile in mind.
-        </div>
-        <div class="four columns value-prop">
-          <img class="value-img" src="images/pens.svg">
-          Styles designed to be a starting point, not a UI framework.
-        </div>
-        <div class="four columns value-prop">
-          <img class="value-img" src="images/watch.svg">
-          Quick to start with zero compiling or installing necessary.
-        </div>
       </div>
     </section>
 
@@ -105,28 +91,18 @@
               </ul>
             </div>
           </li>
-          <li class="navbar-item"><a class="navbar-link" href="#examples">Examples</a></li>
           <li class="navbar-item">
             <a class="navbar-link" href="#" data-popover="#moreNavPopover">More</a>
             <div id="moreNavPopover" class="popover">
               <ul class="popover-list">
                 <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/dhg/Skeleton">On Github</a>
+                  <a class="popover-link" href="https://github.com/paultreanor/Skeleton-dark-mode">On Github</a>
                 </li>
                 <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/dhg/Skeleton#browser-support">Browsers</a>
+                  <a class="popover-link" href="https://github.com/dhg/Skeleton">Origional project</a>
                 </li>
                 <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/dhg/Skeleton#license">License</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/dhg/Skeleton#extensions">Extensions</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/dhg/Skeleton/releases">Versions</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/dhg/Skeleton#colophon">Colophon</a>
+                  <a class="popover-link" href="https://github.com/paultreanor/Skeleton-dark-mode/#license">License</a>
                 </li>
               </ul>
             </div>
@@ -138,13 +114,8 @@
     <!-- Why use Skeleton -->
     <div class="docs-section" id="intro">
       <h6 class="docs-header">Is Skeleton for you?</h6>
-      <p>You should use Skeleton if you're embarking on a smaller project or just don't feel like you need all the utility of larger frameworks. Skeleton only styles a handful of standard HTML elements and includes a grid, but that's often more than enough to get started. In fact, <u>this site is built on Skeleton and has ~200 lines of custom CSS</u> (half of which is the docking navigation).</p>
-      <p>Love Skeleton and want to Tweet it, share it, or star it? Well, I appreciate that <3</p>
-      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.getskeleton.com" data-text="Skeleton - A dead simple, responsive boilerplate." data-via="dhg" data-related="dhg">Tweet</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-      <!-- <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.getskeleton.com&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21&amp;appId=151131931646052" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px; width:140px" allowTransparency="true"></iframe> -->
-      <iframe src="http://ghbtns.com/github-btn.html?user=dhg&repo=Skeleton&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
-      <iframe src="http://ghbtns.com/github-btn.html?user=dhg&repo=Skeleton&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+      <p>You should use Skeleton if you're embarking on a smaller project or just don't feel like you need all the utility of larger frameworks.</p>
+      <p>Skeleton Dark Mode is a small extension to the [Skeleton CSS boilerplate project](http://getskeleton.com/) to include dark mode.</p>
     </div>
 
     <!-- Grid -->
@@ -623,50 +594,7 @@
 
     </div>
 
-    <!-- Examples -->
-    <div class="docs-section examples" id="examples">
-      <h6 class="docs-header">Examples</h6>
-      <div class="row example">
-        <a class="example-screenshot-wrapper" target="_blank" href="examples/landing">
-          <img class="example-screenshot" src="images/examples/landing.jpg">
-        </a>
-        <div class="one-half offset-by-one-half column">
-          <h6 class="example-header">Demo Landing Page</h6>
-          <p class="example-description">This template is an example of how easy it can be to create a landing page with just the Skeleton grid and a few custom styles. The entire demo is ~150 lines of CSS including comments (most of which is positioning the phones at the top).</p>
-          <a class="button" href="examples/landing" target="_blank">Demo</a>
-          <a class="button" href="https://github.com/dhg/Skeleton/tree/gh-pages/examples/landing" target="_blank">Source</a>
-        </div>
-      </div>
-      <div class="row example">
-        <div class="example-screenshot-wrapper">
-          <div class="example-screenshot coming-soon"></div>
-        </div>
-        <div class="one-half offset-by-one-half column">
-          <h6 class="example-header">More Coming Soon!</h6>
-          <p class="example-description">More examples will be added to help anyone get started or more familiar with how Skeleton works. The goal is education. If you're more interested in real, live examples of Skeleton sites, I'll be creating a "Built on Skeleton" list soon!</p>
-        </div>
-      </div>
-    </div>
-
   </div>
 
-
-  <!-- Google Analytics -->
-  <script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-33397759-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
