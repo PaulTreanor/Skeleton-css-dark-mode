@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
 Copyright (c) 2011-2014 Dave Gamache
+
 Copyright (c) 2021 Paul Treanor (modified and extended existing code)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
