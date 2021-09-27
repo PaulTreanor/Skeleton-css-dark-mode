@@ -1,5 +1,5 @@
-# [Skeleton](http://getskeleton.com)
-Skeleton is a simple, responsive boilerplate to kickstart any responsive project.
+
+# Skeleton Dark Mode
 
 Skeleton Dark Mode is an extension to the [Skeleton CSS boilerplate project](http://getskeleton.com) to include dark mode and make minor updates. 
 
