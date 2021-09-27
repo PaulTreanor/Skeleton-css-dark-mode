@@ -5,11 +5,6 @@ Skeleton Dark Mode is an extension to the [Skeleton CSS boilerplate project](htt
 
 Check out <https://paultreanor.github.io/Skeleton-dark-mode/> for documentation and an active demo.
 
-## Getting started
-
-There are a couple ways to download Skeleton:
-Clone the repo: `git clone https://github.com/PaulTreanor/Skeleton-dark-mode` 
-
 ## License
 
 Skeleton Dark Mode follows the [open-source MIT license](https://github.com/dhg/Skeleton/blob/master/LICENSE.md) as Skelton does.
