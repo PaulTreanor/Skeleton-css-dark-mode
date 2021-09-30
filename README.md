@@ -5,9 +5,14 @@ Skeleton Dark Mode is an extension to the [Skeleton CSS boilerplate project](htt
 
 Check out <https://paultreanor.github.io/Skeleton-dark-mode/> for documentation and an active demo.
 
+#### Change log 
+- CSS seperated into skeleton-main, skeleton-light, and skeleton-dark to support dark mode (and other themes)
+- Links are now only underlined when hovered over or active 
+- Buttons give better feedback on hover and active 
+
 ## License
 
-Skeleton Dark Mode follows the [open-source MIT license](https://github.com/dhg/Skeleton/blob/master/LICENSE.md) as Skelton does.
+Skeleton Dark Mode follows the [open-source MIT license](https://github.com/dhg/Skeleton/blob/master/LICENSE.md) as Skeleton does.
 
 ## Acknowledgement
 
